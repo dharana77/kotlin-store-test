@@ -25,12 +25,12 @@
 ```
 
 ## Database
-- project 에 포함된 `mysql-moon.sh` 을 실행하면 mysql db 가 docker container 로 실행된다.
+- project 에 포함된 `mysql-store.sh` 을 실행하면 mysql db 가 docker container 로 실행된다.
 - 그 후에 아래 명령어를 통해 로컬 db 및 user 를 설정 해준다.
 
 ```shell
 # 아래 명령어로 mysql container 에 접속
-docker exec -it mysql-moon mysql -uroot -ptothemoon!
+docker exec -it mysql-store mysql -uroot -pselling!
 ```
 
 ```sql
